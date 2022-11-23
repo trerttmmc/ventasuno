@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='icon.png' rel='icon' type='image/x-icon'/>
+    <title>Copiando al portapapeles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <script>
+    window.onload = function() {
+      // Pega todos os elementos correspondentes
+      var copyTextareaBtn = Array.prototype.slice.
+        call(document.querySelectorAll('.js-textareacopybtn'));
+      var copyTextarea = Array.prototype.slice.
+        call(document.querySelectorAll('.js-copytextarea'));
+
+      // Laço para percorrer todos os elementos
+      copyTextareaBtn.forEach(function(btn, idx) {
+
+        btn.addEventListener("click", function() {
+
+          // Copia o conteudo do textarea
+          copyTextarea[idx].select();
+
+            var msg = document.execCommand('copy')
+              ? 'funcionou' : 'deu erro';
+            console.log('Compando para copiar texto ' + msg);
+
+        });
+
+      });
+    }
+  </script>
+
+
+
+
+    <div>
+      <p>
+        <textarea class="js-copytextarea">https://www.instagram.com/rediosaoficial/</textarea>
+        <button class="js-textareacopybtn">Copiar</button>
+
+      </p>
+      <p>
+        <textarea class="js-copytextarea">Buenas tardes  🥰 mi nombre es valentina, asesora comercial de 𝑹𝒆 𝒅𝒊𝒐𝒔𝒂  💕 y es un gusto poder atenderte!! Por favor confírmanos tu nombre y apellido y desde que ciudad nos escribes ❤️</textarea>
+        <button class="js-textareacopybtn">Copiar</button>
+
+      </p>
+      <p>
+        <textarea class="js-copytextarea">Buenas noches  🥰 mi nombre es valentina, asesora comercial de 𝑹𝒆 𝒅𝒊𝒐𝒔𝒂  💕 y es un gusto poder atenderte!! Por favor confírmanos tu nombre y apellido y desde que ciudad nos escribes ❤️</textarea>
+        <button class="js-textareacopybtn">Copiar</button>
+
+      </p>
+      <p>
+        <textarea class="js-copytextarea">Para validar la disponibilidad de tu pedido más fácil, por favor envíanos el número de referencia que tiene cada publicación, la talla, cantidad y en breve te daremos la información 👩🏻‍💻🙏🏻</textarea>
+        <button class="js-textareacopybtn">Copiar</button>
+
+      </p>
+      <p>
+        <textarea class="js-copytextarea">Hola, ¿qué tal? Mi nombre es Yésica, asesora comercial de Re diosa y es un placer saludarte, con gusto te comparto él, enlace del catálogo al cual le vas a dar clic y vas a poder ver las referencias que se encuentran disponibles.</textarea>
+        <button class="js-textareacopybtn">Copiar</button>
+
+      </p>
+      <p>
+        <textarea class="js-copytextarea">🌾☀️¡𝑹𝒆 𝒅𝒊𝒐𝒔𝒂!☀️🌾
+ ░B░I░K░I░N░I░S░
+🔥Tankinis      $110.000
+👙Bikinis         $120.000
+🩱Una pieza   $128.000
+👗Bañadores  $108.000
+👘Sobretodos $84.000               (10% DE DESCUENTO)</textarea>
+        <button class="js-textareacopybtn">Copiar</button>
+
+      </p>
+      <p>
+        <textarea class="js-copytextarea"style="color: green;">Quedo atenta para realizar tu pedido🤗🤗 </textarea>
+        <button class="js-textareacopybtn">Copiar</button>
+
+      </p>
+      <p>
+        <textarea class="js-copytextarea">Hola si estamos en Bogota en el local es 217 Gran Estación, la esperamos para que vengas y disfrutes de todo lo que tenemos🥰🥰👙</textarea>
+        <button class="js-textareacopybtn">Copiar</button>
+
+      </p>
+      <p>
+        <textarea class="js-copytextarea">https://www.instagram.com/rediosaoficial/</textarea>
+        <button class="js-textareacopybtn">Copiar</button>
+
+      </p>
+      <p>
+        <textarea class="js-copytextarea">¡Hola! Gracias por escribirnos</textarea>
+        <button class="js-textareacopybtn">Copiar</button>
+
+      </p>
+      <p>
+        <textarea class="js-copytextarea">WhatsApp +573185397777</textarea>
+        <button class="js-textareacopybtn">Copiar</button>
+
+      </p>
+
+
+      <p>
+        <textarea class="js-copytextarea"style="color: green;">Dale Click para ver los diseños en Bikinis  👇
+
+https://rediosa.netlify.app/</textarea>
+        <button class="js-textareacopybtn">Copiar</button>
+
+      </p>
+
+      <p>
+        <textarea class="js-copytextarea">Nuestros conjuntos para la venta, son de pago adelantado, contamos con 4 meses de garantía; será una muy buena inversión🥰👙✨</textarea>
+        <button class="js-textareacopybtn">Copiar</button>
+
+      </p>
+      <p>
+        <textarea class="js-copytextarea">💕 Es un gusto poder atenderte!!</textarea>
+        <button class="js-textareacopybtn">Copiar</button>
+
+      </p>
+      <p>
+        <textarea class="js-copytextarea">Para validar la disponibilidad de tu pedido más fácil, por favor envíanos el número de referencia de cada publicación, la talla, cantidad y en breve te daremos la información 👩🏻‍💻🙏🏻</textarea>
+        <button class="js-textareacopybtn">Copiar</button>
+
+      </p>
+
+      <p>
+        <textarea class="js-copytextarea">En máximo 7 días te estaría llegando tu pedido, contamos con 4 meses de garantía; será una muy buena inversión🥰👙</textarea>
+        <button class="js-textareacopybtn">Copiar</button>
+
+      </p>
+
+    </div>
+</body>
+</html>
